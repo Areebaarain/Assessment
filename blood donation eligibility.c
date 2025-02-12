@@ -11,7 +11,7 @@ scanf("%d", &age);
 printf("enter your weight in Kg:") ;
 scanf("%f",&weight);
 
-if (age>=18 && age <=65){
+if (age>=18 && weight <=65){
 printf("you are eligible to donate blood\n");}
 
 else{
